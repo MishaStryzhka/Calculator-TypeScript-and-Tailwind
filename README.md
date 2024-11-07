@@ -1,1 +1,1 @@
-# Calculator-TypeScript-and-Tailwind-
+# Calculator-TypeScript-and-Tailwind
