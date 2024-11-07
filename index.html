@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple TypeScript page</title>
+        <script type="module" src="./dist/index.js" defer></script>
+        <link rel="stylesheet" href="./output.css" />
+        <script src="./index.js"></script>
+    </head>
+    <body
+        class="flex justify-center items-center h-screen bg-gray-100 font-sans"
+    >
+        <div class="w-72 bg-white p-5 rounded-lg shadow-lg">
+            <div
+                class="w-full h-15 bg-gray-900 text-white text-xl text-right p-2.5 rounded-md box-border mb-5"
+                id="display"
+            >
+                0
+            </div>
+            <div class="buttons grid grid-cols-4 gap-2.5">
+                <button
+                    class="p-5 text-lg rounded-md bg-red-600 text-white hover:bg-red-700"
+                    value="clearDisplay"
+                >
+                    C
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="toggleSign"
+                >
+                    +/-
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="percentage"
+                >
+                    %
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="appendOperator"
+                >
+                    /
+                </button>
+
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    7
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    8
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    9
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="appendOperator"
+                >
+                    *
+                </button>
+
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    4
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    5
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    6
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="appendOperator"
+                >
+                    -
+                </button>
+
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    1
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    2
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendNumber"
+                >
+                    3
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-yellow-600 text-white hover:bg-yellow-700"
+                    value="appendOperator"
+                >
+                    +
+                </button>
+
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400 col-span-2"
+                    value="appendNumber"
+                >
+                    0
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-gray-300 hover:bg-gray-400"
+                    value="appendDot"
+                >
+                    .
+                </button>
+                <button
+                    class="p-5 text-lg rounded-md bg-green-700 text-white hover:bg-green-800"
+                    value="calculate"
+                >
+                    =
+                </button>
+            </div>
+        </div>
+
+        <script type="module" src="../dist/index.js" defer></script>
+    </body>
+</html>
